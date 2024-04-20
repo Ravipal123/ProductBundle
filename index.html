@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="products">
+            <div class="title">Build Your Custom Pack of 8 Chocolates</div>
+          <!-- Add your products here -->
+          <div class="product" data-name="Dark Chocolate" data-price="50">
+            <img src="./image/image1.jpeg" alt="Dark Chocolate">
+            <div class="product1">
+                <p>Dark Chocolate</p>
+                <span>Price: ₹50</span>
+                <!-- <button type="button" value="0" onclick="updateSummary()">Add</button> -->
+                <input type="number" min="0" max="8" value="0" onchange="updateSummary()">
+            </div>
+          </div>
+          <div class="product" data-name="Milk Chocolate" data-price="40">
+            <img src="./image/image3.jpeg" alt="Milk Chocolate">
+            <div class="product1">
+                <p>Milk Chocolate</p>
+                <span>Price: ₹40</span>
+                <!-- <button type="button" value="0" onclick="updateSummary()">Add</button> -->
+                <input type="number" min="0" max="8" value="0" onchange="updateSummary()">
+            </div>
+          </div>
+          <div class="product" data-name="White Chocolate" data-price="60">
+            <img src="./image/image2.jpeg" alt="White Chocolate">
+            <div class="product1">
+                <p>White Chocolate</p>
+                <span>Price: ₹60</span>
+                <!-- <button type="button" value="0" onclick="updateSummary()">Add</button> -->
+                <input type="number" min="0" max="8" value="0" onchange="updateSummary()">
+            </div>
+          </div>
+          <div class="product" data-name="Fruit and Nut Chocolate" data-price="70">
+            <img src="./image/image4.jpeg" alt="Fruit and Nut">
+            <div class="product1">
+                <p>Fruit&Nut Chocolate</p>
+                <span>Price: ₹70</span>
+                <!-- <button type="button" value="0" onclick="updateSummary()">Add</button> -->
+                <input type="number" min="0" max="8" value="0" onchange="updateSummary()">
+            </div>
+          </div>
+          <div class="product" data-name="Crunchy Chocolate" data-price="80">
+            <img src="./image/image5.jpeg" alt="Crunchy">
+            <div class="product1">
+                <p>Crunchy Chocolate</p>
+                <span>Price: ₹80</span>
+                <!-- <button type="button" value="0" onclick="updateSummary()">Add</button> -->
+                <input type="number" min="0" max="8" value="0" onchange="updateSummary()">
+            </div>
+          </div>
+          <div class="product" data-name="Caramel Chocolate" data-price="90">
+            <img src="./image/image6.jpeg" alt="Caramel">
+            <div class="product1">
+                <p>Caramel Chocolate</p>
+                <span>Price: ₹90</span>
+                <!-- <button type="button" value="0" onclick="updateSummary()">Add</button> -->
+                <input type="number" min="0" max="8" value="0" onchange="updateSummary()">
+            </div>
+          </div>
+        </div>
+        <div class="summary">
+          <h3>Your Custom Pack</h3>
+          <ul id="summary-items">
+            <!-- The summary items will be added here -->
+          </ul>
+          <p id="summary-total">Total: ₹0</p>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
